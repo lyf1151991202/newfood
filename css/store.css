@@ -1,0 +1,328 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-23 13:41:41
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-24 14:17:27
+*/
+@import url('base.css');
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 1.6rem;
+	background: url('../img/header.png') no-repeat center/cover;
+	padding: .3rem .24rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+header a{
+	display: block;
+	color: #fff;
+}
+header a i{
+	display: block;
+	font-size: .4rem !important;
+}
+/* 头部结束 */
+.about{
+	width: 100%;
+	height: 4rem;
+	margin-top: -.70rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: .24rem;
+	border-bottom: .24rem solid #f2f2f2;
+}
+.a-img {
+	width: 1.34rem;
+	height: 1.38rem;
+	border-radius: .15rem;
+}
+.a-img  img{
+	width: 100%;
+	height: 100%;
+	border-radius: .15rem;
+}
+.about h1{
+	font-size: .3rem;
+	font-weight: 700;
+	line-height: .4rem;
+	color: #585858;
+}
+.about .describe{
+	font-size: .2rem;
+	color: #cacaca;
+	display: flex;
+	justify-content: center;
+}
+.about .describe .d-son{
+	margin-right: .13rem;
+}
+.about .money{
+	width: 3.34rem;
+	height: .90rem;
+	background: url('../img/money.png') no-repeat center/cover;
+	display: flex;
+	justify-content: space-between;
+}
+.about .money .m-left{
+	width: .75rem;
+	height: .9rem;
+	font-size: .36rem;
+	color: #fff;
+	font-weight: 700;
+	float: left;
+	text-align: center;
+	line-height: .9rem;
+	margin-right: .2rem;
+}
+.about .money .m-right{
+	width: 2.4rem;
+	height: .9rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.about .money .m-right .m-r-left{
+	font-size: .26rem;
+	color: #fff;
+	float: left;
+}
+.about .money .m-right .m-r-right{
+	width: .84rem;
+	height: .36rem;
+	font-size: .26rem;
+	color: #ff4533;
+	background: #fff;
+	border-radius: .18rem;
+	text-align: center;
+	line-height: .36rem;
+	float: left;
+}
+.about p{
+	font-size: .2rem;
+	color: #cacaca;
+}
+/* 选项卡开始 */
+.card{
+	width: 100%;
+	height: .98rem;
+	padding: 0 1.2rem;
+}
+.card ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.card ul li{
+	width: 1.3rem;
+	height: .5rem;
+	border-radius: .25rem;
+	background: #ffe1de;
+	color: #736664;
+	font-size: .3rem;
+	text-align: center;
+	line-height: .5rem;
+}
+.card ul li.c-hot{
+	background: -webkit-linear-gradient(#ffab68, #ff6c68);
+	background: -o-linear-gradient(#ffab68, #ff6c68);
+	background: linear-gradient(#ffab68, #ff6c68);
+	box-shadow: 0 .03rem .26rem .02rem #ff6e68;
+	color: #fff;
+}
+/* 选项卡结束 */
+/* 列表开始 */
+.list{
+	width: 100%;
+	height: 10.9rem;
+	margin-bottom: 1.42rem;
+	padding: 0 .24rem;
+	overflow: hidden;
+	overflow-y: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.xuan{
+	width: 1.6rem;
+	height: 10.9rem;
+	overflow: hidden;
+	overflow-y: auto;
+	margin-right: .24rem;
+}
+.xuan::-webkit-scrollbar{
+	width: 0;
+}
+.list-card{
+	width: 1.60rem;
+}
+.list-card li{
+	padding: .24rem;
+	background: #f4f2f2;
+	font-size: .28rem;
+	color: #9b9a9a;
+	line-height: .34rem;
+}
+.list-card li.c-hot{
+	color: #fff;
+	background: #ff4533;
+}
+.food-viewport{
+	width: 5.17rem;
+	height: 100%;
+	overflow: hidden;
+	overflow-y: auto;
+	flex-grow: 1;
+}
+.list-food{
+	width: 100%;
+}
+.list-food li{
+	width: 100%;
+	height: 1.84rem;
+	border-bottom: .01rem solid #eae7e7;
+	padding: .24rem 0;
+}
+.list-food li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.list-food li a .l-f-img{
+	width: 1.36rem;
+	height: 1.36rem;
+	margin-right: .24rem;
+}
+.list-food li .menu{
+	width: 3.55rem;
+	height: 100%;
+	flex-grow: 1;
+	display: flex;
+	justify-content: space-between;
+}
+.list-food li .menu .menu-left{
+	width: 2.24rem;
+	height: 100%;
+}
+.menu-left h1{
+	font-size: .28rem;
+	color: #585858;
+	font-weight: 700;
+}
+.menu-left .pingjia{
+	width: 2.3rem;
+	height: .5rem;
+	color: #cacaca;
+	font-size: .24rem;
+	line-height: .5rem;
+}
+.menu-left .pingjia i{
+	margin-right: .1rem;
+}
+.menu-left .price{
+	font-size: .18rem;
+	line-height: .4rem;
+	color: #ff6147;
+	margin-top: .2rem;
+}
+.menu-left .price i{
+	font-size: .3rem;
+}
+.list-food li .menu .menu-right{
+	width: .44rem;
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+	padding-bottom: .24rem;
+}
+.list-food li .menu .menu-right i{
+	display: block;
+	font-size: .46rem;
+	color: #ff6047;
+}
+/* 列表结束 */
+/* 底部开始 */
+.shopping{
+	width: 100%;
+	height: 1.42rem;
+	background: skyblue;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.s-top{
+	width: 100%;
+	height: .42rem;
+	background: #fcde9d;
+	color: #574b33;
+	text-align: center;
+	line-height: .42rem;
+	font-size: .22rem;
+}
+.s-bottom{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	justify-content: space-between;
+}
+.s-b-left{
+	width: 65%;
+	height: 100%;
+	background: #333333;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: .5rem;
+}
+.s-b-left h1{
+	font-size: .26rem;
+	color: #827f7f;
+	line-height: .34rem;
+	text-align: center;
+}
+.s-b-right{
+	width: 35%;
+	height: 100%;
+	background: #5f5e5e;
+}
+.s-b-right a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.s-b-right h1{
+	font-size: .26rem;
+	color: #827f7f;
+	line-height: .34rem;
+	text-align: center;
+}
+.car{
+	width: .95rem;
+	height: .95rem;
+	border-radius: 50%;
+	background: -webkit-linear-gradient(#ff7a47, #ff3747);
+	background: -o-linear-gradient(#ff7a47, #ff3747);
+	background: linear-gradient(#ff7a47, #ff3747);
+	position: absolute;
+	top: .14rem;
+	left: .24rem;
+}
+.car i{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	color: #fff;
+	font-size: .46rem;
+	text-align: center;
+	line-height: .95rem;
+}
+/* 底部结束 */

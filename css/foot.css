@@ -1,0 +1,47 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-22 22:56:14
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-22 22:56:55
+*/
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1rem;
+	padding: 0 .24rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+}
+footer ul{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+footer ul li{
+	width: .9rem;
+	height: .6rem;
+}
+footer ul li a{
+	display: block;
+	width: .9rem;
+	height: .6rem;
+	text-align: center;
+	color: #b1b1b1;
+}
+footer ul li a.f-hot{
+	color: #ff9191;
+}
+footer ul li a i{
+	display: block;
+	font-size: .20rem;
+}
+footer ul li a span{
+	display: block;
+	font-size: .18rem;
+	line-height: .26rem;
+}
+/* 底部结束 */

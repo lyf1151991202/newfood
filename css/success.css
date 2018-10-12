@@ -1,0 +1,77 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-27 10:14:36
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-27 11:05:09
+*/
+@import url('base.css');
+.bg{
+	width: 100%;
+	height: 9.6rem;
+	background: url('../img/bg.png') no-repeat center/cover;
+	overflow: hidden;
+}
+.bg h1{
+	font-size: .4rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1.02rem;
+	margin-top: 2.06rem;
+}
+.bg h2{
+	font-size: .28rem;
+	color: #fff;
+	text-align: center;
+	line-height: .72rem;
+}
+.succedd-bg{
+	width: 2.34rem;
+	height: 3.16rem;
+	background: url('../img/pay-1.png') no-repeat center/cover;
+	margin: 0 auto;
+}
+.succedd-bg i{
+	display: block;
+	font-size: 1rem;
+	line-height: 3.16rem;
+	color: #ff6b36;
+	text-align: center;
+	margin-left: .24rem;
+}
+.button{
+	width: 4.84rem;
+	height: .66rem;
+	margin: 1rem auto 0;
+	display: flex;
+	justify-content: space-between;
+}
+.index{
+	width: 1.84rem;
+	height: 100%;
+	background: #ff5d33;
+	border-radius: .33rem;
+}
+.index a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: .3rem;
+	color: #fff;
+	line-height: .66rem;
+	text-align: center;
+}
+.next{
+	width: 1.84rem;
+	height: 100%;
+	background: #ffb5a1;
+	border-radius: .33rem;
+}
+.next a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: .3rem;
+	color: #fff;
+	line-height: .66rem;
+	text-align: center;
+}
